@@ -1,0 +1,29 @@
+//Name: Lauren Gregory
+//Assignment: Lab10Out
+//Description: ....
+#ifndef TRIANGLE_H
+#define TRIANGLE_H
+
+#include "Shape.h"
+
+class Triangle : public Shape
+{
+protected:
+    GenPoint a;
+    GenPoint b;
+    GenPoint c;
+
+public:
+
+    Triangle();
+    Triangle(GenPoint a, GenPoint b, GenPoint c, Color color);
+    void setPoints(GenPoint a, GenPoint b, GenPoint c);
+    double getArea();
+    double getPerimeter();
+    void print();
+    void draw();
+
+};
+
+#endif
+
