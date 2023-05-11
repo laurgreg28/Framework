@@ -1,7 +1,3 @@
-//Name: Lauren Gregory
-//Assignment: Lab10Out
-//Description: ....
-
 #ifndef SHAPE_H
 #define SHAPE_H
 
